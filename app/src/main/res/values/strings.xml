@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">RandomGenerator</string>
+    <string name="heads">It\'s Heads!</string>
+    <string name="tails">It\'s Tails!</string>
+    <string name="not_match">Password does not match.</string>
+    <string name="invalidLoginInput">Incorrect username or password.</string>
+    <string name="invalidIntInput">Invalid input, the minimum number can\'t be greater than the maximum.</string>
+    <string name="noSave">There is no saved session. \n Please start a new spin Wheel session first.</string>
+    <string name="noInput">No input.</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="enter">ENTER</string>
+    <string name="hintUserName">Enter Username</string>
+    <string name="hintPassword">Enter Password</string>
+    <string name="hintVerPassword">Please Verify Your Password</string>
+    <string name="hintNums">1, 2, 3 …</string>
+    <string name="spinwheel">SPIN WHEEL</string>
+    <string name="randnum">RANDOM NUMBER</string>
+    <string name="saves">SAVED INSTANCE</string>
+    <string name="save">SAVE</string>
+    <string name="saved">Saved</string>
+    <string name="toss">COIN TOSS</string>
+    <string name="mainMenu">MAIN MENU</string>
+    <string name="entryNum">Number of Entries:</string>
+    <string name="minNum">Minimum Number:</string>
+    <string name="maxNum">Maximum Number:</string>
+    <string name="result">Result:</string>
+    <string name="legend">LEGEND</string>
+    <string name="spin">SPIN</string>
+    <string name="entries">Number of Entries:</string>
+    <string name="exit">EXIT</string>
+
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="#CB593C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="MAIN MENU"
+        android:textColor="#FFFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRandNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#f4ad42"
+        android:fontFamily="@font/franklingothiccondensed"
+        android:text="RANDOM NUMBER"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textColor="#FFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSpinWheel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#EDBB99"
+        android:textColor="#FFFF"
+        android:fontFamily="@font/franklingothiccondensed"
+        android:text="SPIN WHEEL"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCoinToss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#008080"
+        android:textColor="#FFF"
+        android:fontFamily="@font/franklingothiccondensed"
+        android:text="COIN TOSS"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSaved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#0B5345"
+        android:textColor="#FFF"
+        android:fontFamily="@font/franklingothiccondensed"
+        android:text="SAVED INSTANCES"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#CB593C"
+        android:textColor="#FFF"
+        android:fontFamily="@font/franklingothiccondensed"
+        android:text="LOGOUT"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
